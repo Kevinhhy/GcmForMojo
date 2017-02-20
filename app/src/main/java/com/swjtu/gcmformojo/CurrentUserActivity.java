@@ -34,6 +34,7 @@ public class CurrentUserActivity extends AppCompatActivity {
     final private static String[] PERMISSIONS_STORAGE = {
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.WRITE_EXTERNAL_STORAGE
+
     };
 
 
