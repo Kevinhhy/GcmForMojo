@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.swjtu.gcmformojo.HelpActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_help_main">
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,30 +48,5 @@
         android:layout_marginTop="15dp"
         android:id="@+id/textView"
         android:text="@string/Update_GcmForMojo" />
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_marginBottom="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="@string/Type_Token" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:textIsSelectable="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="@string/About_Token" />
-
-
-
-
 
 </RelativeLayout>
